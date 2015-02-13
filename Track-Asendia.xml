@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/"
+    xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+    <ShortName>Asendia Tracking</ShortName>
+    <Description>Track an Asendia package</Description>
+    <InputEncoding>UTF-8</InputEncoding>
+    <Image width="16" height="16" type="image/x-icon">www.asendiausa.com/favicon.ico</Image>
+    <Url type="text/html" method="GET" template="http://tracking.asendiausa.com/t.aspx">
+        <Param name="p" value="{searchTerms}"/>
+    </Url>
+    <moz:SearchForm>http://tracking.asendiausa.com/t.aspx</moz:SearchForm>
+    <Developer>WBT</Developer>
+</OpenSearchDescription>
